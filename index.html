@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HSE Interview Revision</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="#/read">HSE<span>Interview Revision</span></a>
+    <nav class="modes" aria-label="Mode">
+      <button type="button" class="mode" data-mode="read">Read</button>
+      <button type="button" class="mode" data-mode="test">Test</button>
+    </nav>
+    <div class="search-wrap" id="searchWrap">
+      <input id="search" type="search" placeholder="Find a fact" aria-label="Find a fact" autocomplete="off">
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="rail" id="rail" aria-label="Topics"></aside>
+  <main class="main" id="view" tabindex="-1"></main>
+</div>
+
+<script src="content.js"></script>
+<script src="quiz.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
